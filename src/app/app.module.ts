@@ -8,18 +8,22 @@ import { AppComponent } from './app.component';
 import { NoPageFoundComponent } from './pages/no-page-found/no-page-found.component';
 import { AppRoutingModule } from './app-routing.module';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
    
     NoPageFoundComponent,
+    
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
